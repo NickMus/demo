@@ -1,0 +1,17 @@
+
+<html>
+<head>
+    <title>All Products</title>
+</head>
+<body>
+<ul>
+    <c:forEach var="product" items="${productList}">
+        <ul>
+            <td>${product.id}</td>
+            <td>${product.title}</td>
+            <td>${product.cost}</td>
+        </ul>
+    </c:forEach>
+</ul>
+</body>
+</html>
