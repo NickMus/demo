@@ -1,7 +1,9 @@
-package com.example.demo;
+package service;
 
+import entities.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import repositories.ProductRepository;
 
 import java.util.List;
 
