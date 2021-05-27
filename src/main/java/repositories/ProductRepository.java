@@ -1,6 +1,6 @@
-package com.example.demo;
+package repositories;
 
-import com.example.demo.Product;
+import entities.Product;
 import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.Arrays;
